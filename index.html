@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Google</title>
+</head>
+
+<body>
+    <header id="cabecalho">
+        <div class="container">
+            <nav class="cabecalho_nav">
+                <ul class="nav_list">
+                    <div class="items_esquerda">
+                        <li class="nav_li"><a href="#">About</a></li>
+                        <li class="nav_li"><a href="#">Store</a></li>
+                    </div>
+
+                    <div class="items_direita">
+                        <li class="nav_li"><a href="#">Gmail</a></li>
+                        <li class="nav_li"><a href="#">Images</a></li>
+                        <li class="nav_li">
+                            <a ><button class="buttons_apps"></button></a>
+                        </li>
+                        <li class="nav_li">
+                            <a href="https://github.com/GusttavoCDN" target="_blank" ><img
+                                    class="img_icone" src="img/github_avatar.jpeg" alt="Foto de Perfil"></a>
+                        </li>
+                    </div>
+                </ul>
+            </nav>
+        </div>
+
+    </header>
+
+    <main class="main_content">
+
+        <div class="container">
+            <img class="google_Logo"
+                src="https://web.archive.org/web/20191201000239im_/https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"
+                alt="Google Logo">
+
+            <div class="div_form">
+                <form>
+                    <div class="div_search_bar">
+
+                        <div class="icone_search">
+                            <svg class="svg icone" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg"
+                                xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="612.08px"
+                                height="612.08px" viewBox="0 0 612.08 612.08"
+                                style="enable-background:new 0 0 612.08 612.08;" xml:space="preserve">
+                                <path d="M237.927,0C106.555,0,0.035,106.52,0.035,237.893c0,131.373,106.52,237.893,237.893,237.893
+                                    c50.518,0,97.368-15.757,135.879-42.597l0.028-0.028l176.432,176.433c3.274,3.274,8.48,3.358,11.839,0l47.551-47.551
+                                    c3.274-3.274,3.106-8.703-0.028-11.838L433.223,373.8c26.84-38.539,42.597-85.39,42.597-135.907C475.82,106.52,369.3,0,237.927,0z
+                                    M237.927,419.811c-100.475,0-181.918-81.443-181.918-181.918S137.453,55.975,237.927,55.975s181.918,81.443,181.918,181.918
+                                    S338.402,419.811,237.927,419.811z" />
+                            </svg>
+                        </div>
+
+                        <input type="search" class="search_google">
+                    </div>
+
+                    <div class="div_serach_buttons">
+                        <button class="button">Google Search</button>
+                        <button class="button">I'm Feeling Lucky</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <div onclick="darkMode()">
+            <span class="switch icone"></span>
+        </div>
+    </main>
+
+    <footer>
+        <nav class="nav_Footer">
+
+            <ul class="footer_list">
+                <div class="items_esquerda">
+                    <li><a class="footer_links">Adversing</a></li>
+                    <li><a class="footer_links">Business</a></li>
+                    <li><a class="footer_links">How Search works</a></li>
+                </div>
+
+                <div class="items_direita">
+                    <li><a class="footer_links">Privacy</a></li>
+                    <li><a class="footer_links">Terms</a></li>
+                    <li><a class="footer_links">Settings</a></li>
+                </div>
+            </ul>
+        </nav>
+    </footer>
+
+    <script src="js/darkmode.js"></script>
+    <!-- <script src="js/svg.js"></script> -->
+</body>
+
+</html>
